@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int arr[5] = {10, 20, 30, 40, 50};
+    int *ptr = arr;
+
+    cout << "First element = " << *ptr << endl;
+    cout << "Second element = " << *(ptr + 1) << endl;
+    cout << "Third element = " << *(ptr + 2) << endl;
+
+    return 0;
+}
